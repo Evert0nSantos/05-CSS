@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f1e5;
+    color: #333;
+}
+
+header {
+    background-color: #0a472e;
+    color: white;
+    padding: 20px;
+    position: relative;
+}
+
+.header-content {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffc107;
+}
+
+img:not(.logo) {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+footer {
+    background-color: #2f2f2f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: 40px 0;
+}
+
+footer a {
+    color: #ffcc00;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: white;
+}
+
+.tp {
+    padding: 20px;
+    margin: 0;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tp a {
+    text-decoration: none;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tp a:hover {
+    color: green;
+}
+
+.tp {
+    border: 5px solid #f8f1e5; 
+    padding: 20px;             
+    background-color: #f8f1e5; 
+    margin: 0px auto;
+    max-width: 2000px;
+}
+
+.logo-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+.tm {
+    padding: 20px;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid #f8f1e5; 
+    background-color: #f8f1e5; 
+    max-width: 2000px;
+}
+
+.imagemdolado {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.imagemdolado2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.tm a {
+    text-decoration: none;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tm a:hover {
+    color: green;
+}
